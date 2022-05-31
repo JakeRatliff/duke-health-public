@@ -1,0 +1,117 @@
+<link href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet" />
+<style type="text/css">
+#__custom_grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -70px;
+}
+
+#__custom_grid a,
+#__custom_grid a:link,
+#__custom_grid a:visited,
+#__custom_grid a:hover,
+#__custom_grid a:active {
+    text-decoration: none !important;
+}
+
+.__tile-outer {
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.__tile {
+    font-weight: bold;
+    font-size: 1em;
+    background-color: none;
+    width: 150px;
+    height: 180px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px lightgrey;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.__fa {
+    font-size: 60px;
+    margin-top: 22px;
+    color: #00539b;
+}
+
+.__tile-title {
+    text-align: center;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #__custom_grid {
+        /*margin-bottom: -76px;*/
+        margin-left: -35px;
+    }
+
+    .__tile-outer,
+    .__tile {
+        width: 140px;
+        height: 170px;
+    }
+
+    .__tile-outer {
+        margin: 12px;
+    }
+
+    .__tile {
+        font-size: .9em;
+        margin: 0px;
+    }
+
+    .__fa {
+        font-size: 50px;
+    }
+}
+</style>
+<div id="__custom_grid">
+    <div class="__tile-outer">
+        <a href="https://www.dukehealth.org/locations/duke-sports-injury-and-orthopaedic-urgent-care-arringdon">
+            <div class="__tile">
+                <div class="__tile-title">Ortho Urgent Care Access</div>
+                <p><i class="fa-solid fa-stethoscope __fa"></i>
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="__tile-outer">
+        <a href="https://www.dukehealth.org/blog/common-injuries-adolescent-sports">
+            <div class="__tile">
+                <div class="__tile-title">Preventative Care</div>
+                <p><i class="fa-solid fa-watch-fitness __fa"></i>
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="__tile-outer">
+        <a href="https://physicians.dukehealth.org/articles/young-soccer-player-receives-specialized-acl-surgery">
+            <div class="__tile">
+                <div class="__tile-title __two-lines">Complex<br>Care</div>
+                <p><i class="fa-solid fa-user-doctor-hair-long __fa"></i>
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="__tile-outer">
+        <a href="https://www.dukehealth.org/treatments/urgent-care">
+            <div class="__tile">
+                <div class="__tile-title">General Urgent Care</div>
+                <p><i class="fa-solid fa-hospital __fa"></i>
+                </p>
+            </div>
+        </a>
+    </div>
+</div>
